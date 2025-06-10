@@ -274,7 +274,7 @@ footer textarea {
 }
 
 
-/* Responsive Media Query  */
+/* Responsive Media Query  For Mobile Device*/
 
 .hide {
     display: none;
@@ -312,5 +312,60 @@ footer textarea {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+    }
+    /* Header  */
+    .banner {
+        display: flex;
+        flex-direction: column;
+        margin: 20x;
+        padding: 10px 10px;
+    }
+    .banner-content {
+        margin-right: 0px;
+    }
+    .btn-primary {
+        border-radius: 5px;
+        background: rgb(253, 110, 10);
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 8px 4px;
+        border: none;
+        cursor: pointer;
+        margin: 5px;
+    }
+    .btn-primary i {
+        margin-right: 4px;
+    }
+    .btn-contact {
+        border-radius: 5px;
+        color: rgb(253, 110, 10);
+        background: wheat;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 8px 4px;
+        border: none;
+        cursor: pointer;
+        margin: 5px;
+    }
+    .btn-contact i {
+        margin-right: 4px;
+    }
+    .banner-image {
+        width: 100%;
+    }
+    /* Nav Bar  */
+    nav {
+        display: flex;
+        flex-direction: column;
+        /* margin: 50px 200px; */
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .header {
+        background-image: none;
     }
 }
